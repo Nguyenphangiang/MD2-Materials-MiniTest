@@ -96,7 +96,7 @@ public class Method {
                 list.get(index).setCost(newCost);
                 System.out.println("Enter new Weight:");
                 double newWeight = sc.nextDouble();
-                ((CrispyFlour) list.get(index)).setQuantity(newWeight);
+                ((Meat) list.get(index)).setWeight(newWeight);
             }
         }
     }
